@@ -1,9 +1,13 @@
 # 🧪 SQL Injection – Querying Database Type & Version (Oracle)
 ## 📌 Lab 2 : Oracle Database Version Extraction
 
-### 🎯 Objective: Determine the database type and version.
+### 🎯 Objective
 
-### 🔍 Vulnerability Type: SQL Injection (UNION-based)
+Determine the database type and version.
+
+### 🔍 Vulnerability Type
+
+SQL Injection (UNION-based)
 
 ### ⚙️ Steps Performed:
 1. Identified injectable parameter
