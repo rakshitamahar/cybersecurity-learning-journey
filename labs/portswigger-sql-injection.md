@@ -12,10 +12,6 @@ Steps Performed:
 2. Intercepted request (or tested input manually)
 3. Injected payload in username field
 
-### 📸 Proof of Concept
-<img width="1920" height="1080" alt="SQL lab2" src="https://github.com/user-attachments/assets/d796230a-8b3f-457c-8ca8-a6e8ab980f55" />
-<img width="1920" height="1080" alt="LAb-2" src="https://github.com/user-attachments/assets/f506de1a-731f-43d4-b3bf-77f053f84563" />
-
 ### 💉 Payload Used
 ```sql
 ' OR 1=1 --
@@ -26,7 +22,9 @@ Steps Performed:
 - This condition bypasses authentication checks  
 - The application grants access without validating credentials
 
-
+### 📸 Proof of Concept
+![<img width="1920" height="1080" alt="SQL lab2" src="https://github.com/user-attachments/assets/d796230a-8b3f-457c-8ca8-a6e8ab980f55" />](../images/sql-lab1.png)
+![<img width="1920" height="1080" alt="LAb-2" src="https://github.com/user-attachments/assets/f506de1a-731f-43d4-b3bf-77f053f84563" />](../images/sql-lab1.png)
 
 Result: Successfully bypassed login without knowing credentials.
 
